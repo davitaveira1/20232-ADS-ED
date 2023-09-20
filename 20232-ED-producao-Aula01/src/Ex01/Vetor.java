@@ -71,6 +71,21 @@ public class Vetor {
             return "Posição inválida!";
         }
     }
+    
+    public void inserirPorPosicao(int pos,Aluno a){
+        for(int i=qtdAlunosVetor-1;i>=pos;i--){
+            alunos[i+1]=alunos[i];            
+        }
+        alunos[pos]=a;
+        qtdAlunosVetor++;
+    }
+    
+    public void removerPorPosicao(int pos){
+        for(int i=pos;i<=qtdAlunosVetor-1;i++){
+            alunos[i]=alunos[i+1];
+        }
+        qtdAlunosVetor--;        
+    }
 
     public static void main(String[] args) {
 
