@@ -21,9 +21,4 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
-/20232-ED-producao-Aula01/nbproject/private/
-/20232-ED-producao-Aula01/build/
-/20232-ED-producao-Aula02/nbproject/private/
-/20232-ED-producao-Aula02/build/
-/20232-ED-producao-Aula03/nbproject/private/
+/build/
